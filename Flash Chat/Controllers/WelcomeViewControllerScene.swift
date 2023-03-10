@@ -7,11 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewControllerScene: UIViewController {
 
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
 

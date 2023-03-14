@@ -64,7 +64,7 @@
                                     <segue destination="Xd3-Ku-fW3" kind="show" id="Lji-WR-txY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lQ-42-psa" userLabel="Title label">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lQ-42-psa" userLabel="Title label">
                                 <rect key="frame" x="0.0" y="418" width="414" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="bAy-FH-RxA"/>

@@ -389,11 +389,6 @@
             <point key="canvasLocation" x="23.188405797101453" y="-34.821428571428569"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="3lQ-42-psa">
-            <size key="intrinsicContentSize" width="307.5" height="60"/>
-        </designable>
-    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="2ET-KQ-DWg"/>
     </inferredMetricsTieBreakers>

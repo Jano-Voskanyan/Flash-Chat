@@ -4,5 +4,6 @@ target 'Flash Chat' do
   use_frameworks!
 
   # Pods for Flash Chat
-    pod 'CLTypingLabel'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Firestore'
 end

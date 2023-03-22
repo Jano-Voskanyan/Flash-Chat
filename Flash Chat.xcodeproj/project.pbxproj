@@ -17,6 +17,7 @@
 		E7510BB129BB44CF005ADC3A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7510BB029BB44CF005ADC3A /* RegisterViewController.swift */; };
 		E7510BB329BB4504005ADC3A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7510BB229BB4504005ADC3A /* LoginViewController.swift */; };
 		E7510BB529BB452F005ADC3A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7510BB429BB452F005ADC3A /* ChatViewController.swift */; };
+		E75F739129C374FD00A6C510 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E75F739029C374FD00A6C510 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E7510BB029BB44CF005ADC3A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E7510BB229BB4504005ADC3A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E7510BB429BB452F005ADC3A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E75F739029C374FD00A6C510 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,6 @@
 				52243EBF1015A9CDD4C3FE57 /* Pods-Flash Chat.debug.xcconfig */,
 				0F9489E8C7DE024F249DC9C3 /* Pods-Flash Chat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +94,7 @@
 				E7510BA229BB3A02005ADC3A /* Assets.xcassets */,
 				E7510BA429BB3A02005ADC3A /* LaunchScreen.storyboard */,
 				E7510BA729BB3A02005ADC3A /* Info.plist */,
+				E75F739029C374FD00A6C510 /* GoogleService-Info.plist */,
 			);
 			path = "Flash Chat";
 			sourceTree = "<group>";
@@ -186,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7510BA629BB3A02005ADC3A /* LaunchScreen.storyboard in Resources */,
+				E75F739129C374FD00A6C510 /* GoogleService-Info.plist in Resources */,
 				E7510BA329BB3A02005ADC3A /* Assets.xcassets in Resources */,
 				E7510BA129BB3A00005ADC3A /* Main.storyboard in Resources */,
 			);
@@ -321,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -375,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
